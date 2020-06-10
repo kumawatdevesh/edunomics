@@ -1,0 +1,64 @@
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(185, 183, 183);
+}
+.logout {
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.parent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.drawer {
+    width: 25%;
+    height: 100vh;
+    padding: 50px 20px;
+    background-color: rgb(122, 120, 120);
+}
+.drawer a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 5px;
+    color: #fff;
+}
+.drawer a:hover {
+    background-color: black;
+    color: #fff;
+}
+.right {
+    width: 100%;
+}
+.right__top {
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(82, 82, 119);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.cards {
+    flex-basis: 30%;
+    height: 25%;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.right__bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 400px;
+}
+.right__bottom > .cards {
+    flex-basis: 40%;
+    height: 30%;
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.4);
+} 

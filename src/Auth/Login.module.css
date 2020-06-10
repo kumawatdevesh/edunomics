@@ -1,0 +1,35 @@
+.row {
+    max-width: 112rem;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+}
+.signup__form {
+    width: 30%;
+    margin: 0 auto;
+}
+.signup__form > input {
+    display: block;
+}
+.signup__form > input[type="email"],
+.signup__form > input[type="password"] {
+    width: 100%;
+    display: block;
+    font-size: 17px;
+    padding: 2px;
+    border: 1px solid blue;
+}
+.signup__form input[type="submit"] {
+    width: 100px;
+    margin: 10px auto;
+    padding: 10px 5px;
+    cursor: pointer;
+    background-color: #fff;
+    color: blue;
+    border: 1px solid blue;
+} 
+.signup__form input[type="submit"]:hover {
+    background-color: blue;
+    color: #fff;
+}

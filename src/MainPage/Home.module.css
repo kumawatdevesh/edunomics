@@ -1,0 +1,57 @@
+.top__bar {
+  background-color: #eee;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.hamburger__icon {
+  align-self: flex-end;
+  cursor: pointer;
+}
+.hamburger__icon > div {
+  width: 15px;
+  height: 2px;
+  background-color: #000;
+  margin: 4px 0;
+}
+.avatar {
+  background-image: url('../image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  position: relative;
+}
+.avatar__links {
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  margin-right: 100px;
+}
+.avatar__links > a {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 20px;
+  color: #fff;
+}
+.avatar__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.content {
+  padding: 20px;
+  margin: 50px 0;
+}
+.login__form {
+  width: 600px;
+  position: absolute;
+  top: 20%;
+  left: 60%;
+}
